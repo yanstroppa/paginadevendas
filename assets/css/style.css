@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root {
+    --main-color: #8360FC;
+    --bg-color: #c4c4c4;
+    --complementary-color: #FCED60;
+    --secondary-color: #6070FC;
+    --darker-color: #5A43B0;
+}
+
 .josefin-sans-bolder {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -13,6 +21,13 @@
     font-weight: 850;
     font-style: normal;
 }
+
+.bebas-neue{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 .inter-tight-light {
     font-family: "Inter Tight", sans-serif;
@@ -29,6 +44,43 @@
     font-size: 3rem;
 }
 
+.text-bg-black {
+    background-color: black;
+    color: aliceblue;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-fadefrommain{
+    background-image: linear-gradient(to bottom, var(--main-color), var(--secondary-color) );
+}
+
+.bg-darker{
+    background-color: var(--darker-color);
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.bg-complementary {
+    background-color: var(--complementary-color);
+}
+
+.text-complementary {
+    color: var(--complementary-color);
+}
+
+.servimg{
+    width: 150px;
+    height: 150px;
+}
 
 header {
     height: 8vh;
@@ -36,11 +88,13 @@ header {
 
 main .comprar {
     width: 250px;
+
 }
 
 .comprar {
     border-radius: 10px;
     width: 140px;
+    border: 0;
 }
 
 img {
@@ -55,7 +109,7 @@ img {
     height: 100%;
 }
 
-main .title-font{
+main .title-font {
     font-size: 2.4rem;
 }
 
@@ -67,7 +121,7 @@ main .title-font{
 
 /* fontes */
 
-.beneficios:not(:last-child){
+.beneficios:not(:last-child) {
     margin-bottom: 10rem;
 }
 
