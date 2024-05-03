@@ -18,21 +18,27 @@
 
 <body class="text-bg-black">
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class=""><i class="bi bi-chevron-double-up fw-bolder h3"></i></button>
+
     <header class="ms-2 pt-3 h3 lead">
         <nav class="navbar bg-black text-main">
             <div class="container-lg p-2 px-lg-5 px-3">
-                <a href="#" class="text-decoration-none link-light">Home</a>
-                <ul class="list-unstyled list-group list-group-horizontal text-end">
-                    <a href="#" class="link-light"><i class="bi bi-whatsapp"></i></a>
-                    <a href="mailto:endereçodoemail@gmail.com " class="ms-4 link-light"><i
-                            class="bi bi-envelope"></i></a>
+                <a href="#" class="text-decoration-none link-light title-font" id="logo" onmouseenter="showIcon()"
+                    onmouseleave="hideIcon()"><span class="text-white">umbr</span><span
+                        class="text-complementary">ella</span>
+                    <i class="bi bi-umbrella fw-bold text-white" id="umbrella"></i></a>
+                <ul class="list-unstyled list-group list-group-horizontal text-end h2 me-3">
+                    <li><a href="https://wa.me/5519991600632" class="link-light link-opacity-50-hover "><i
+                                class="bi bi-whatsapp"></i></a></li>
+                    <li><a href="mailto:yanstroppa.business@gmail.com" class="ms-4 link-light link-opacity-50-hover"><i
+                                class="bi bi-envelope"></i></a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <div class="container-lg shadow ">
-        <main class="m-2 mb-0 py-2 py-5 shadow">
+    <div class="container-lg">
+        <main class="m-2 mt-4 mt-lg-2 mb-0 py-2 py-5 ">
             <section class=" mt-lg-5">
                 <div class="row justify-content-around align-content-center" id="mainrow">
                     <div class="col-12 col-lg-5 align-self-center" id="maintext">
@@ -41,18 +47,19 @@
                                 class="text-main fst-normal">website</i>.</h1>
                         <!-- <p class="fs-5 mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
 
-                        <div class="p-3 comprar text-bg-light text-center">
-                            <a href="#" class="text-decoration-none text-dark">
+                        <div class="p-3 comprar bg-complementary text-center">
+                            <a href="https://wa.me/5519991600632" class="text-decoration-none text-dark">
+                                <p class="h4 fw-normal">Preços a partir de R$199</p>
                                 <p class="h4 fw-normal">Entre em contato</p>
-                                <p class="h4 fw-normal">A partir de R$199</p>
                             </a>
 
                         </div>
                     </div>
 
                     <div class="col-12 col-lg-6 mt-4 mt-lg-0 align-self-center" id="mainimg">
-                        <img src="assets/img/mainimg.png" alt="">
+                        <img src="assets/img/mainimg.png" alt="" class="pt-3 pe-3 pb-3 bg-white">
                     </div>
+
                 </div>
             </section>
         </main>
@@ -60,23 +67,23 @@
 
     <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <article class="bg-main text-light mt-lg-5 pt-5 pb-4 px-4 " id="details">
+    <article class="bg-fadefrommain text-light mt-lg-5 pt-5 pb-4 px-4 " id="details">
 
         <!-- CONTEÚDO -->
         <section class="container-lg beneficios">
             <div class="row justify-content-around">
 
                 <div class="col-12 col-lg-6 align-self-center align-items-start order-last order-lg-first ">
-                    <img src="assets/img/seo.png" class="shadow" alt="">
+                    <img src="assets/img/seo.png" class="shadow p-3 bg-white" alt="">
                 </div>
 
                 <div class="col-12 col-lg-5 align-self-center px-lg-5">
                     <h1 class="mb-4 title-font">A experiência do usuário em primeiro lugar</h1>
-                    <p class="fs-5 mb-4">Projetos otimizados com alto desempenho focados na experiencia do usuário para
+                    <p class="fs-5 mb-4">Projetos otimizados com alto desempenho focados na experiência do usuário para
                         gerar grandes resultados.</p>
 
                     <div class="p-3 comprar  text-center mb-5 border-0 bg-complementary shadow">
-                        <a href="#" class="text-decoration-none text-main">
+                        <a href="https://wa.me/5519991600632" class="text-decoration-none text-main">
                             <p class="h5 fw-semibold">Entrar em contato</p>
                         </a>
                     </div>
@@ -86,7 +93,7 @@
 
         <!-- CONTEÚDO -->
         <section class="container-lg beneficios">
-            <div class="row justify-content-around text-end">
+            <div class="row justify-content-around text-lg-end">
 
                 <div class="col-12 col-lg-6 align-self-center align-items-start order-last">
                     <img src="assets/img/y700.png" class="shadow" alt="">
@@ -97,8 +104,8 @@
                     <p class="fs-5 mb-4">Sites completamente customizados de acordo com o cliente, entregues em um curto
                         período de tempo.</p>
 
-                    <div class="p-3 comprar bg-complementary text-center mb-5 float-end shadow">
-                        <a href="#" class="text-decoration-none text-white">
+                    <div class="p-3 comprar bg-complementary text-center mb-5 float-lg-end shadow">
+                        <a href="https://wa.me/5519991600632" class="text-decoration-none text-white">
                             <p class="h5 text-main fw-semibold">Contato</p>
                         </a>
                     </div>
@@ -109,12 +116,12 @@
 
     <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <article class="bg-fadefrommain py-5" id="services">
+    <article class="bg-sec py-5" id="services">
         <!-- LANDING PAGES/ALTA CONVERSÃO   SITES PARA EMPRESAS    LOJAS VIRTUAIS -->
         <div class="container-lg">
 
             <section class="bg-darker p-5 rounded-5 text-light shadow">
-                <h1 class="h1 text-center title-font mb-5">CONFIRA NOSSOS SERVIÇOS
+                <h1 class="h1 text-center title-font mb-5">Confira nossos serviços
                 </h1>
                 <div class="row flex-wrap text-center">
                     <div class="col-12 col-lg px-5">
@@ -136,7 +143,7 @@
                         <h3 class="3 bebas-neue my-2">Lojas virtuais</h3>
                         <p class="h5">
                             Desenvolvemos seu e-commerce através da plataforma <span
-                                class="text-complementary">Shopify</span> e fornecemos manutenção, suporte e
+                                class="text-complementary">Shopify</span>, fornecemos manutenção, suporte e
                             customização.</p>
                     </div>
 
@@ -147,13 +154,54 @@
     </article>
 
     <footer class="container-lg">
-        <div class="row p-1 align-items-center justify-content-around">
-            <div class="col">Por Yan Rocha</div>
-            <div class="col text-end"><a href="#"><i class="bi bi-whatsapp text-white fs-4"></i></a></div>
+        <div class=" text-center p-3"> <a href="https://wa.me/5519991600632" class="link-opacity-50-hover me-5"><i
+                    class="bi bi-whatsapp text-white fs-4"></i></a>
+            <a href="mailto:yanstroppa.business@gmail.com" class="link-light link-opacity-50-hover"><i
+                    class="bi bi-envelope text-white fs-4 link-opacity-50-hover"></i></a>
         </div>
+        <!-- <div class="row p-1 align-items-center justify-content-around">
+            <div class="col">Por Yan Rocha</div>
+            <div class="col text-end"> <a href="#" class="link-opacity-50-hover me-3"><i class="bi bi-whatsapp text-white fs-4 link-opacity-50-hover"></i></a>
+                <a href="#" class="link-opacity-50-hover"><i class="bi bi-envelope text-white fs-4 link-opacity-50-hover"></i></a></div>
+            
+        </div> -->
     </footer>
 
     <script src="assets/vendor/bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        var icone = document.querySelector('i#umbrella');
+        icone.style.transitionDelay = '.3s';
+        function showIcon() {
+
+            icone.style.display = "inline";
+        }
+
+        function hideIcon() {
+
+            icone.style.display = "none";
+        }
+
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
 </body>
 
 </html>

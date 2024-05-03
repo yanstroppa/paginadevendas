@@ -5,7 +5,45 @@
     --bg-color: #c4c4c4;
     --complementary-color: #FCED60;
     --secondary-color: #6070FC;
-    --darker-color: #5A43B0;
+    --darker-color: #505DD2;
+    --pinker-color: #B660FC;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    
+    /* Some padding */
+    border-radius: 50%;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+    width: 60px;
+    height: 60px;
+    background-color: #FEA225;
+    color: black;
+}
+
+#myBtn:hover {
+    background-color: var(--complementary-color);
+    color: var(--main-color);
+    /* Add a dark-grey background on hover */
 }
 
 .josefin-sans-bolder {
@@ -22,12 +60,12 @@
     font-style: normal;
 }
 
-.bebas-neue{
+.bebas-neue {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
 
 .inter-tight-light {
     font-family: "Inter Tight", sans-serif;
@@ -53,11 +91,15 @@
     background-color: black;
 }
 
-.bg-fadefrommain{
-    background-image: linear-gradient(to bottom, var(--main-color), var(--secondary-color) );
+.bg-fadefrommain {
+    background-image: linear-gradient(to bottom, var(--main-color) 80%, var(--secondary-color));
 }
 
-.bg-darker{
+.bg-fadetomain {
+    background-image: linear-gradient(to top, var(--main-color), var(--secondary-color));
+}
+
+.bg-darker {
     background-color: var(--darker-color);
 }
 
@@ -69,6 +111,10 @@
     color: var(--main-color);
 }
 
+.bg-sec {
+    background-color: var(--secondary-color);
+}
+
 .bg-complementary {
     background-color: var(--complementary-color);
 }
@@ -77,17 +123,37 @@
     color: var(--complementary-color);
 }
 
-.servimg{
+.text-pink {
+    color: var(--pinker-color);
+}
+
+.servimg {
     width: 150px;
     height: 150px;
 }
+
+#umbrella {
+    display: none;
+    transition: 0.2s;
+}
+
 
 header {
     height: 8vh;
 }
 
+/* main{
+    height: 90vh;
+} */
+
 main .comprar {
-    width: 250px;
+    width: 310px;
+
+}
+
+.comprar:hover {
+    transform: translate(10px, 0);
+    transition: 0.3s;
 
 }
 
@@ -104,9 +170,11 @@ img {
     object-fit: cover;
 }
 
+
 #mainimg img {
     width: 100%;
     height: 100%;
+    box-shadow: 20px 20px 0 var(--main-color);
 }
 
 main .title-font {
@@ -129,6 +197,10 @@ main .title-font {
 /* media-queries */
 
 @media screen and (max-width: 992px) {
+    #mainimg img {
+        box-shadow: none;
+    }
+
     #details img {
         width: 100%;
         height: 100%;
@@ -138,4 +210,8 @@ main .title-font {
         font-size: 2.5rem;
     }
 
+    /* main{
+        height: 93vh;
+    }
+} */
 }
