@@ -27,7 +27,7 @@
     /* Text color */
     cursor: pointer;
     /* Add a mouse pointer on hover */
-    
+
     /* Some padding */
     border-radius: 50%;
     /* Rounded corners */
@@ -72,6 +72,16 @@
     font-weight: lighter;
     font-style: normal;
 }
+
+
+.logo-font {
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+}
+
 
 .title-font {
     font-family: "Inter Tight", sans-serif;
@@ -126,6 +136,10 @@
     color: var(--pinker-color);
 }
 
+.bg-pink {
+    color: var(--pinker-color);
+}
+
 .servimg {
     width: 150px;
     height: 150px;
@@ -152,14 +166,17 @@ main .comprar {
 
 .comprar:hover {
     transform: translate(10px, 0);
-    transition: 0.3s;
+    box-shadow: -15px 10px 0 var(--main-color);
 
 }
+
+
 
 .comprar {
     border-radius: 10px;
     width: 140px;
     border: 0;
+    transition: 0.3s;
 }
 
 img {
@@ -174,7 +191,9 @@ img {
     width: 100%;
     height: 100%;
     box-shadow: 20px 20px 0 var(--main-color);
+    transition: 0.3s;
 }
+
 
 main .title-font {
     font-size: 2.4rem;
@@ -214,3 +233,11 @@ main .title-font {
     }
 } */
 }
+
+@media screen and (min-width: 992px) {
+
+    #mainimg img:hover {
+        box-shadow: -20px -20px 0 var(--main-color) ;
+    }
+}
+
