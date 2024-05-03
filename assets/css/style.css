@@ -2,7 +2,6 @@
 
 :root {
     --main-color: #8360FC;
-    --bg-color: #c4c4c4;
     --complementary-color: #FCED60;
     --secondary-color: #6070FC;
     --darker-color: #505DD2;
@@ -148,7 +147,7 @@ header {
 
 main .comprar {
     width: 310px;
-
+    box-shadow: 15px 10px 0 var(--main-color);
 }
 
 .comprar:hover {
