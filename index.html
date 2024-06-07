@@ -4,16 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOOSE / Criação de sites</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/goose.svg">
+    <title>Synap / Desenvolvimento Web</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/reshot-icon-brain-Z4SLMWCY2G.svg">
     <link rel="stylesheet" href="assets/vendor/bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="assets/css/style.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sriracha&family=Fugaz+One&family=Koulen&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sriracha&family=Fugaz+One&family=Koulen&family=Quicksand:wght@300..700&display=swap"
         rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 
@@ -22,13 +25,16 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top" class=""><i
             class="bi bi-chevron-double-up fw-bolder text-main h3"></i></button>
 
+
+    <!-- HEADER ----------------------------------------------------------------------------------------------------------------------------------------- -->
+
     <header class="ms-2 pt-3 h3 lead">
         <nav class="navbar bg-black text-main">
             <div class="container-lg p-2 px-lg-5 px-3">
                 <a href="#" class="text-decoration-none link-light logo-font" id="logo" onmouseenter="showIcon()"
                     onmouseleave="hideIcon()"><i>
-                        <span class="text-white">go</span><span class="text-complementary">ose</span>.<span
-                            class="text-main">net</span>
+                        <span class="text-white">sy</span><span class="text-complementary">nap</span>.<span
+                            class="text-main">com</span>
                     </i>
                     <i class="bi bi-feather fw-bold text-white" id="umbrella"></i>
                     <!-- <i class="bi bi-feather fw-bold text-white" id="umbrella"></i> --></a>
@@ -42,8 +48,10 @@
         </nav>
     </header>
 
+    <!-- TOPO ----------------------------------------------------------------------------------------------------------------------------------------- -->
+
     <div class="container-lg">
-        <main class="m-2 mt-4 mt-lg-2 mb-0 py-2 py-5 ">
+        <main class="m-2 mt-4 mt-lg-2 mb-0 py-5 ">
             <section class=" mt-lg-5">
                 <div class="row justify-content-around align-content-center" id="mainrow">
                     <div class="col-12 col-lg-5 align-self-center" id="maintext">
@@ -53,10 +61,10 @@
                         <!-- <p class="fs-5 mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
 
                         <a href="https://wa.me/5519991600632" class="text-decoration-none text-dark">
-                            <div class="p-3 comprar bg-complementary text-center d-inline-block">
+                            <div class="p-3 comprar bg-complementary inter-tight-bolder text-center d-inline-block">
 
-                                <p class="h4 fw-normal">Preços a partir de R$199</p>
-                                <p class="h4 fw-normal">Entre em contato</p>
+                                <p class="h4 ">Preços a partir de R$199</p>
+                                <p class="h4 ">Entre em contato</p>
 
                             </div>
                         </a>
@@ -67,30 +75,32 @@
                     </div>
 
                 </div>
+                <br>
             </section>
         </main>
     </div>
 
-    <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- main --------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <article class="bg-fadefrommain text-light mt-lg-5 pt-5 pb-4 px-4 " id="details">
+    <article class="bg-fadefrommain text-light mt-lg-5 py-5 px-4" id="details">
 
         <!-- CONTEÚDO -->
         <section class="container-lg beneficios">
             <div class="row justify-content-around">
 
-                <div class="col-12 col-lg-6 align-self-center align-items-start order-last order-lg-first ">
-                    <img src="assets/img/seo.png" class="shadow p-3 bg-white" alt="">
+                <div class="col-12 col-lg-6 align-self-center align-items-start order-last order-lg-first " >
+                    <img src="assets/img/seo.png"  class="shadow p-3 bg-white" alt="" data-aos="fade-right">
                 </div>
 
-                <div class="col-12 col-lg-5 align-self-center px-lg-5">
+                <div class="col-12 col-lg-5 align-self-center px-lg-5" data-aos="fade-left">
                     <h1 class="mb-4 title-font">A <span class="text-complementary">experiência do usuário</span> em
                         primeiro lugar</h1>
-                    <p class="fs-5 mb-4">Projetos otimizados com alto desempenho focados na experiência do usuário para
+                    <p class="fs-5 mb-4">Projetos otimizados, com alto desempenho focados na experiência do usuário para
                         gerar grandes resultados.</p>
 
                     <a href="https://wa.me/5519991600632" class="text-decoration-none text-main">
-                        <div class="p-3 comprar text-center mb-5 border-0 bg-complementary shadow d-inline-block">
+                        <div class="p-3 comprar text-center mb-5 border-0 bg-complementary shadow d-inline-block"
+                            style="width: 200px;">
 
                             <p class="h5 fw-semibold">Entrar em contato</p>
 
@@ -104,11 +114,12 @@
         <section class="container-lg beneficios">
             <div class="row justify-content-around text-lg-end">
 
+
                 <div class="col-12 col-lg-6 align-self-center align-items-start order-last">
-                    <img src="assets/img/y700.png" class="shadow" alt="">
+                    <img src="assets/img/y700.png" class="shadow" alt="" data-aos="fade-left">
                 </div>
 
-                <div class="col-12 col-lg-5 align-self-center px-lg-5">
+                <div class="col-12 col-lg-5 align-self-center px-lg-5" data-aos="fade-right">
                     <h1 class="mb-4 title-font">Projetos entregues com <span class="text-complementary">qualidade e
                             agilidade</span></h1>
                     <p class="fs-5 mb-4">Sites modernos, completamente customizados de acordo com o cliente,
@@ -124,50 +135,141 @@
                 </div>
         </section>
         <!-- FIM DO CONTEUDO -->
+
     </article>
 
     <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <article class="bg-sec py-5" id="services">
-        <!-- LANDING PAGES/ALTA CONVERSÃO   SITES PARA EMPRESAS    LOJAS VIRTUAIS -->
-        <div class="container-lg">
+    <div class="bg-sec pb-5">
+        <h1 class=" inter-tight-bolder text-center mb-5" data-aos="fade-down">Confira nossos serviços</h1>
+        <div class="container-md row m-auto justify-content-around align-content-center">
+            <div class="col-12 col-lg-7 py-5 ps-4 ps-lg-5 text-bg-light services shadow " id="serv1" >
+                <h5 class="quicksand text-secondary mb-3 mt-lg-4">Amplie a presença online do seu negócio</h5>
+                <h3 class="inter-tight-bolder mb-3" style="color: #394296;">Desenvolvimento de Lojas Virtuais, Websites,
+                    Landing
+                    Pages e Blogs</h3>
+                <p class="mb-3">Criamos presenças online impactantes, personalizadas para suas necessidades, com foco na
+                    experiência do usuário e desempenho otimizado. Com nosso suporte contínuo e compromisso com o seu
+                    sucesso, podemos construir uma parceria de longo prazo para alcançar seus objetivos. Entre em
+                    contato já e vamos construir o seu negócio online! </p>
+                <a href="https://wa.me/5519991600632" class="text-decoration-none">
+                    <div class=" bg-complementary text-center p-2 shadow mt-4" id="servcont"
+                        style="width: 200px; background-color: #FFAC00; height: 43px; color: #394296;" data-aos="fade-right">
+                        <p>Entrar em contato </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-lg-5 py-4 align-self-center text-white services shadow"
+                style="background-color: #FFB530;" id="serv2">
+                <div class=" m-auto">
 
-            <section class="bg-darker p-5 rounded-5 text-light shadow">
-                <h1 class="h1 text-center title-font mb-5">Confira nossos serviços
-                </h1>
-                <div class="row flex-wrap text-center">
-                    <div class="col-12 col-lg px-5">
-                        <img src="assets/img/landing.svg" alt="" class="servimg d-block mx-auto">
-                        <h3 class="3 bebas-neue my-2">Landing pages</h3>
-                        <p class="h5">
+                    <!-- CARROSSEL  -->
+                    <div class="mt-3">
 
-                            Desenvolvemos <span class="text-complementary">landing pages de alta conversão</span> para
-                            gerar <span class="text-complementary">leads</span> e <span
-                                class="text-complementary">vendas</span> para a sua empresa.</p>
+                        <div id="carouselExampleDark" class="carousel    slide">
+                            <div class="carousel-indicators d-none">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner text-start">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+
+                                    <!-- Instead of image, div with style and min-height -->
+                                    <div class="carrossel">
+                                        <div class=" d-block w-75 m-auto">
+                                            <h3 class="inter-tight-bolder text-start">Lojas
+                                                Virtuais</h3>
+                                            <p class="text-start">Uma loja virtual ou e-commerce é uma plataforma online
+                                                onde empresas podem vender seus
+                                                produtos ou serviços. Ao optar por uma loja virtual, as empresas podem
+                                                alcançar uma audiência global e estar disponíveis 24 horas por dia, 7
+                                                dias por semana, além de custos operacionais reduzidos em relação a uma
+                                                loja física e oferecer uma
+                                                experiência
+                                                de compra conveniente e personalizada. Uma loja virtual é uma maneira
+                                                eficaz
+                                                de expandir o alcance de um negócio e aumentar as vendas de forma
+                                                significativa.</p>
+                                        </div>
+                                    </div><!-- end of div style min-height: 140px; -->
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <!-- Instead of image, div with style and min-height -->
+                                    <div class="carrossel">
+                                        <div class=" d-block w-75  m-auto">
+                                            <h3 class="inter-tight-bolder">Websites</h3>
+                                            <p>Um website serve como uma vitrine virtual, permitindo que empresas
+                                                apresentem seus produtos, serviços e/ou informações relevantes a
+                                                clientes
+                                                em potencial. Além de oferecer credibilidade e profissionalismo, ter um
+                                                website proporciona visibilidade global, acessibilidade 24/7,
+                                                oportunidades de marketing eficazes, como SEO e mídias sociais, além de
+                                                facilitar o contato direto com os clientes.</p>
+                                        </div>
+                                    </div><!-- end of div style min-height: 140px; -->
+                                </div>
+                                <div class="carousel-item">
+                                    <!-- Instead of image, div with style and min-height -->
+                                    <div class="carrossel">
+                                        <div class=" d-block w-75  m-auto ">
+                                            <h3 class="inter-tight-bolder">Landing pages</h3>
+                                            <p>Uma landing page é uma página da web focada em converter visitantes em
+                                                leads ou clientes. Ela é projetada para uma oferta específica, como um
+                                                produto, serviço ou conteúdo, e geralmente inclui um formulário de
+                                                contato ou chamada para ação direcionando os visitantes para uma ação
+                                                desejada. Os benefícios de uma landing page incluem a geração de leads
+                                                qualificados, aumento das taxas de conversão, foco em objetivos
+                                                específicos de marketing, teste e otimização de campanhas, e
+                                                fornecimento de métricas claras sobre o desempenho da campanha. </p>
+                                        </div>
+                                    </div><!-- end of div style min-height: 140px; -->
+                                </div>
+                                <div class="carousel-item">
+                                    <!-- Instead of image, div with style and min-height -->
+                                    <div class="carrossel">
+                                        <div class="w-75  d-block  m-auto">
+                                            <h3 class="inter-tight-bolder">Blogs</h3>
+                                            <p>Um blog é uma seção de um site que contém artigos ou postagens regulares,
+                                                geralmente relacionados ao nicho ou área de atuação de um negócio. Os
+                                                benefícios de um blog para um negócio incluem o aumento
+                                                da visibilidade online, atração tráfego qualificado por meio de SEO,
+                                                estabelecer autoridade e credibilidade no mercado, engajar a audiência,
+                                                fornecer valor e educar os clientes, além de criar oportunidades de
+                                                conversão e fidelização. Um blog bem mantido pode ser uma
+                                                ferramenta poderosa para impulsionar o crescimento, construir
+                                                relacionamentos e alcançar os objetivos do seu negócio.</p>
+                                        </div>
+                                    </div><!-- end of div style min-height: 140px; -->
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+
                     </div>
-                    <div class="col-12 col-lg px-5 mt-lg-5">
-                        <img src="assets/img/biz.svg" alt="" class="servimg d-block mx-auto">
-                        <h3 class="3 bebas-neue my-2">Sites institucionais</h3>
-                        <p class="h5">Criamos um site <span class="text-complementary">moderno, profissional e
-                                customizado</span> para que seja a cara do seu negócio e atenda a todas as suas
-                            necessidades.</p>
-                    </div>
-                    <div class="col-12 col-lg px-5">
-                        <img src="assets/img/money.svg" alt="" class="servimg d-block mx-auto">
-                        <h3 class="3 bebas-neue my-2">Lojas virtuais</h3>
-                        <p class="h5">
-                            Desenvolvemos seu e-commerce através da plataforma <span
-                                class="text-complementary">Shopify</span>, fornecemos <span class="text-complementary">
-                                manutenção, suporte e
-                                customização.
-                            </span></p>
-                    </div>
+                    <!-- end .container -->
 
                 </div>
-            </section>
-
+            </div>
         </div>
-    </article>
+
+    </div>
 
     <footer class="container-lg">
         <div class=" text-center p-3"> <a href="https://wa.me/5519991600632" class="link-opacity-50-hover me-5"><i
@@ -179,13 +281,16 @@
             <div class="col">Por Yan Rocha</div>
             <div class="col text-end"> <a href="#" class="link-opacity-50-hover me-3"><i class="bi bi-whatsapp text-white fs-4 link-opacity-50-hover"></i></a>
                 <a href="#" class="link-opacity-50-hover"><i class="bi bi-envelope text-white fs-4 link-opacity-50-hover"></i></a></div>
-            
         </div> -->
     </footer>
 
-    <script src="assets/vendor/bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    
 
     <script>
+
         var icone = document.querySelector('i#umbrella');
         icone.style.transitionDelay = '.3s';
         function showIcon() {
@@ -218,6 +323,12 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
+
+    <script src="assets/vendor/bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

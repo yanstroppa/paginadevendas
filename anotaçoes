@@ -1,0 +1,275 @@
+
+<article class="bg-sec py-5" id="services">
+        <!-- LANDING PAGES/ALTA CONVERSÃO   SITES PARA EMPRESAS    LOJAS VIRTUAIS -->
+        <div class="container-lg">
+
+            <section class="bg-darker p-5 rounded-5 text-light shadow">
+                <h1 class="h1 text-center title-font mb-5">Confira nossos serviços
+                </h1>
+                <div class="row flex-wrap text-center">
+                    <div class="col-12 col-lg px-5">
+                        <img src="assets/img/landing.svg" alt="" class="servimg d-block mx-auto">
+                        <h3 class="3 bebas-neue my-2">Landing pages</h3>
+                        <p class="h5">
+
+                            Desenvolvemos <span class="text-complementary">landing pages de alta conversão</span> para
+                            gerar <span class="text-complementary">leads</span> e <span
+                                class="text-complementary">vendas</span> para a sua empresa.</p>
+                    </div>
+                    <div class="col-12 col-lg px-5 mt-lg-5">
+                        <img src="assets/img/biz.svg" alt="" class="servimg d-block mx-auto">
+                        <h3 class="3 bebas-neue my-2">Sites institucionais</h3>
+                        <p class="h5">Criamos um site <span class="text-complementary">moderno, profissional e
+                                customizado</span> para que seja a cara do seu negócio e atenda a todas as suas
+                            necessidades.</p>
+                    </div>
+                    <div class="col-12 col-lg px-5">
+                        <img src="assets/img/money.svg" alt="" class="servimg d-block mx-auto">
+                        <h3 class="3 bebas-neue my-2">Lojas virtuais</h3>
+                        <p class="h5">
+                            Desenvolvemos seu e-commerce através da plataforma <span
+                                class="text-complementary">Opencart</span>, e fornecemos <span
+                                class="text-complementary">manutenção, suporte e customização.
+                            </span></p>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </article>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators d-none">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active ">
+                <div class="w-75 m-auto text-light">
+                    <h3 class="inter-tight-bolder text-center mb-lg-4 ">Lojas virtuais</h3>
+                    <p class="h5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur
+                        repellat
+                        inventore ab provident consectetur animi, neque vel tenetur ut dignissimos possimus
+                        quam placeat dolores deserunt hic, a ratione nisi numquam beatae officia? Totam
+                        quibusdam mollitia odio officiis magnam modi! Dolores facilis facere magnam deserunt
+                        quae similique doloremque quod voluptates a, inventore harum quos cumque sit vero
+                        quibusdam quis? Ullam!</p>
+                        
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="text-light w-75 m-auto">
+                    <h3 class="inter-tight-bolder text-center mb-lg-4">Landing pages</h3>
+                    <p class="h5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur
+                        repellat
+                        inventore ab provident consectetur animi, neque vel tenetur ut dignissimos possimus
+                        quam placeat dolores deserunt hic, a ratione nisi numquam beatae officia? Totam
+                        quibusdam mollitia odio officiis magnam modi! Dolores facilis facere magnam deserunt
+                        quae similique doloremque quod voluptates a, inventore harum quos cumque sit vero
+                        quibusdam quis? Ullam!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="text-light w-75 m-auto">
+                    <h3 class="inter-tight-bolder text-center mb-lg-4">Websites completos</h3>
+                    <p class="h5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur
+                        repellat
+                        inventore ab provident consectetur animi, neque vel tenetur ut dignissimos possimus
+                        quam placeat dolores deserunt hic, a ratione nisi numquam beatae officia? Totam
+                        quibusdam mollitia odio officiis magnam modi! Dolores facilis facere magnam deserunt
+                        quae similique doloremque quod voluptates a, inventore harum quos cumque sit vero
+                        quibusdam quis? Ullam!</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="    p-5 rounded-5 shadow w-50 m-auto bg-darker" id="services">
+        <!-- carrosel -->
+
+       
+        
+        <!-- fim carrossel-->
+    </section>
+
+    <h3 class="inter-tight-bolder text-center mb-lg-4">Websites completos</h3>
+    <p class="h5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur
+        repellat
+        inventore ab provident consectetur animi, neque vel tenetur ut dignissimos possimus
+        quam placeat dolores deserunt hic, a ratione nisi numquam beatae officia? Totam
+        quibusdam mollitia odio officiis magnam modi! Dolores facilis facere magnam deserunt
+        quae similique doloremque quod voluptates a, inventore harum quos cumque sit vero
+        quibusdam quis? Ullam!</p>
+    </div>
+
+
+     <!-- SERVIÇOS -->
+            <section class="container-lg beneficios">
+                <div class="row justify-content-around">
+
+                    <div class="col-12 col-lg-6 align-self-center">
+
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="false">
+                                    <!-- Instead of image, div with style and min-height -->
+                                    <div style="min-height: 200px;">
+                                        <div class="d-block w-75 m-auto">
+                                            <h3 class="text-center inter-tight-normal">Lojas virtuais</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+                                                explicabo aliquid maxime cupiditate, molestiae repudiandae! Tempore
+                                                aspernatur consequatur temporibus, rem laudantium qui recusandae alias
+                                                quas aut veniam debitis accusamus placeat quod distinctio laboriosam
+                                                soluta excepturi nobis sint sit exercitationem? Laudantium rerum nihil,
+                                                dolorem libero voluptas vitae architecto eaque? Sunt quam minus
+                                                consequuntur, facilis nisi voluptatem dolorum quis ipsum deserunt
+                                                corporis.</p>
+                                        </div>
+                                    </div><!-- end of div style min-height: 140px; -->
+                                </div>
+                                <div class="carousel-item" data-bs-interval="false">
+                                    <!-- Instead of image, div with style and min-height -->
+                                    <div style="min-height: 200px;">
+                                        <div class="d-block">
+                                            <h3 class="text-center inter-tight-normal">Landing pages</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+                                                explicabo aliquid maxime cupiditate, molestiae repudiandae! Tempore
+                                                aspernatur consequatur temporibus, rem laudantium qui recusandae alias
+                                                quas aut veniam debitis accusamus placeat quod distinctio laboriosam
+                                                soluta excepturi nobis sint sit exercitationem? Laudantium rerum nihil,
+                                                dolorem libero voluptas vitae architecto eaque? Sunt quam minus
+                                                consequuntur, facilis nisi voluptatem dolorum quis ipsum deserunt
+                                                corporis.</p>
+                                        </div>
+                                    </div><!-- end of div style min-height: 140px; -->
+                                </div>
+                                <div class="carousel-item" data-bs-interval="false">
+                                    <!-- Instead of image, div with style and min-height -->
+                                    <div style="min-height: 200px;">
+                                        <div class="d-block">
+                                            <h3 class="text-center inter-tight-normal">Websites Completos</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+                                                explicabo aliquid maxime cupiditate, molestiae repudiandae! Tempore
+                                                aspernatur consequatur temporibus, rem laudantium qui recusandae alias
+                                                quas aut veniam debitis accusamus placeat quod distinctio laboriosam
+                                                soluta excepturi nobis sint sit exercitationem? Laudantium rerum nihil,
+                                                dolorem libero voluptas vitae architecto eaque? Sunt quam minus
+                                                consequuntur, facilis nisi voluptatem dolorum quis ipsum deserunt
+                                                corporis.</p>
+                                        </div>
+                                    </div><!-- end of div style min-height: 140px; -->
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+
+                    </div><!-- end .container -->
+
+                    <div class="col-12 col-lg-5 align-self-center px-lg-5">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="false">
+                                <img src="assets/img/websiteil.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="false">
+                                <img src="assets/img/mainweb.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="false">
+                                <img src="assets/img/search.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        
+                    </div>
+                </section>
+
+                <!-- CARROSSEL  -->
+<div class="container my-4">
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+    
+                <!-- Instead of image, div with style and min-height --><div style="min-height: 140px;">
+                    <div class="carousel-caption d-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div><!-- end of div style min-height: 140px; -->
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <!-- Instead of image, div with style and min-height --><div style="min-height: 140px;">
+                    <div class="carousel-caption d-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div><!-- end of div style min-height: 140px; -->
+            </div>
+            <div class="carousel-item">
+                <!-- Instead of image, div with style and min-height --><div style="min-height: 140px;">
+                    <div class="carousel-caption d-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div><!-- end of div style min-height: 140px; -->
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+      
+      
+    </div><!-- end .container -->
